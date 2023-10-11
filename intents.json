@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hello there", "Hi Fang", "Fang"],
+     "responses": ["Hello!", "Nice to meet you", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye"],
+     "responses": ["See you soon", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+     "responses": ["I am 18 years old!", "18 years young!"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?"],
+     "responses": ["I am a chatbot, you can call me Fang", "I'm Fang!", "Hi there, my name is Fang."],
+     "context_set": ""
+    },
+    {"tag": "time",
+     "patterns": ["time", "what time is it", "show the current time"],
+     "responses": [""],
+     "context_set": ""
+    },
+    {"tag": "date",
+     "patterns": ["date", "today", "show the date"],
+     "responses": [""],
+     "context_set": ""
+    },
+    {"tag": "search",
+    "patterns": ["Can you look up this information for me", "Search this for me", "search", "help"],
+    "responses": ["OK! Give me your question", "Of course! What do you want to know?"],
+    "context_set": ""
+    },
+    {"tag": "game",
+    "patterns": ["game", "play game", "I want to play game", "Can you play game?", "Can you play game with me?"],
+    "responses": ["OK! Wait for a second!", "Of course! Let's play together"],
+    "context_set": ""
+    }
+]
+}
